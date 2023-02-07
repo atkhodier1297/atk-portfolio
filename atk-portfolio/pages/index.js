@@ -18,23 +18,23 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='bg-white px-10 md:px-20 lg:px-40 '>
+      <main className='bg-white p-10 md:px-20 lg:px-40 dark:bg-black '>
         <section className="min-h-screen">
-          <nav className='py-10 mg-12 flex justify-between' >
+          <nav className='py-10 mg-12 flex justify-between dark:text-white' >
             <h1 className='text-xl'>developedbyadam</h1>
             <ul className='flex items-center'>
               <li>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl'/>
               </li>
               <li>
-                <a className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href='#'>Resume</a>       
+                <a className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href='https://docs.google.com/document/d/1xaQac8ZZAlmdgnMK2Nxd6qn5uRleo0nm5kQZMHaH96A/edit?usp=sharing'>Resume</a>       
               </li>
             </ul>
           </nav>
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-500 font-medium md:text-6xl'>Adam Khodier</h2>
-            <h3 className='text-2xl py-2 md:text-3xl'>Full Stack Software Engineer</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto'>Brand new full stack software developer open to work. Check me out with the links down below!</p>
+            <h3 className='text-2xl py-2 md:text-3xl  dark:text-gray-400'>Full Stack Software Engineer</h3>
+            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>Brand new full stack software developer open to work. Check me out with the links down below!</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-teal-500'>
             <a href='#'><AiFillLinkedin/></a>
@@ -43,68 +43,68 @@ export default function Home() {
             <a href='#'><AiFillMediumSquare/></a>
           </div>
           <div className='flex justify-center py-10'>
-            <Image className='rounded-full w-60 h-60 md:h-96 md:w-96' src={Adam}/>
+            <Image className='rounded-full w-60 h-60 md:h-70 md:w-70' src={Adam} alt="adam-picture"/>
           </div>
         </section> 
         <section>
           <div className='text-center p-10'>
-            <h3 className='text-2xl py-2 md:text-3xl'>About Me</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto'>I recently graduated from Flatiron School's software engineering bootcamp, and prior to that I had just finished up my bachelors degree in Political Science from Kean University with Cum Laude Honors. Technology has always been my true passion, so after I college I decided to pursue a career in software engineering.
+            <h3 className='text-2xl py-2 md:text-3xl  dark:text-gray-400'>About Me</h3>
+            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>I graduated from Flatiron School's software engineering bootcamp in 2023, and also graduated from Kean University with a bachelors in Political Science with Cum Laude Honors in 2020. Technology has always been my true passion, so after college I decided to pursue a career in software engineering.
             </p>
           </div>
           <div className='text-center p-10'>
-            <h3 className='text-2xl py-2 md:text-3xl'>Services I Offer</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto'>I create full stack web applications that involve databases, code for the front-end and back-end, pulling and using data from API's such as Spotify and Stripe, and also full user authentication with encrypted passwords.
+            <h3 className='text-2xl py-2 md:text-3xl  dark:text-gray-400'>Services I Offer</h3>
+            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>I create full stack web applications that involve databases, code for the front-end and back-end, pulling and using data from API's such as Spotify and Stripe, and also full user authentication with encrypted passwords.
             </p>
           </div>
           <div className='md:text-xl max-w-xl mx-auto'>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={code} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
+            <div className="text-center shadow-lg shadow-teal-500 p-10 rounded-xl my-10">
+              <Image src={code} width={100} height={100} alt="code-pic" />
+              <h3 className="text-lg font-medium pt-8 pb-2  dark:text-gray-400 ">
                 Code Your Project
               </h3>
-              <p className="py-2">
+              <p className="py-2 dark:text-gray-400">
               Do you have an idea for your next great website? Let's make it a
               reality.
               </p>
-              <h4 className="py-4 text-teal-600">Programming Languages I Use</h4>
-              <p className="text-gray-800 py-1">JavaScript</p>
-              <p className="text-gray-800 py-1">React</p>
-              <p className="text-gray-800 py-1">Ruby on Rails</p>
+              <h4 className="py-4 text-teal-500">Programming Languages I Use</h4>
+              <p className="text-gray-800 py-1 dark:text-gray-400">JavaScript</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">React</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">Ruby on Rails</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={design} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
+            <div className="text-center shadow-lg shadow-teal-500 p-10 rounded-xl my-10">
+              <Image src={design} width={100} height={100} alt="design-pic" />
+              <h3 className="text-lg font-medium pt-8 pb-2  dark:text-gray-400 ">
                 Beautiful Designs
               </h3>
-              <p className="py-2">
+              <p className="py-2 dark:text-gray-400">
                 Creating designs suited for your needs following core
                 design theory.
               </p>
-              <h4 className="py-4 text-teal-600"> Web Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">CSS</p>
-              <p className="text-gray-800 py-1">Tailwind</p>
-              <p className="text-gray-800 py-1">Bootstrap</p>
+              <h4 className="py-4 text-teal-500"> Web Design Tools I Use</h4>
+              <p className="text-gray-800 py-1 dark:text-gray-400">CSS</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">Tailwind</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">Bootstrap</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={db} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
-                Database Organization
+            <div className="text-center shadow-lg shadow-teal-500 p-10 rounded-xl my-10">
+              <Image src={db} width={100} height={100} alt="db-pic" />
+              <h3 className="text-lg font-medium pt-8 pb-2  dark:text-gray-400 ">
+                Database Integration
               </h3>
-              <p className="py-2">
+              <p className="py-2 dark:text-gray-400">
                 Creating and organizing database tables with proper relationships
               </p>
-              <h4 className="py-4 text-teal-600">Database Tools I Use</h4>
-              <p className="text-gray-800 py-1">PostgreSQL</p>
-              <p className="text-gray-800 py-1">SQL</p>
-              <p className="text-gray-800 py-1">SQLite</p>
+              <h4 className="py-4 text-teal-500">Database Tools I Use</h4>
+              <p className="text-gray-800 py-1 dark:text-gray-400">PostgreSQL</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">SQL</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">SQLite</p>
             </div>
           </div>
         </section>
         <section>
           <div className="text-center my-10">
-            <h3 className='text-2xl py-2 md:text-3xl'>Portfolio</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto'>Below are some of the projects that I have created, 
+            <h3 className='text-2xl py-2 md:text-3xl  dark:text-gray-400'>Portfolio</h3>
+            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>Below are some of the projects that I have created, 
             check them out on my YouTube channel. Take note of my progression with each and every project!
             </p>
           </div>
