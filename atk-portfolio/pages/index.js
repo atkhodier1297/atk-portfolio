@@ -3,6 +3,9 @@ import {BsFillMoonStarsFill} from 'react-icons/bs'
 import {AiFillLinkedin, AiFillYoutube, AiFillGithub, AiFillMediumSquare} from 'react-icons/ai'
 import Image from 'next/image'
 import Adam from '../public/Adam.png'
+import code from '../public/code.png'
+import design from '../public/design.png'
+import db from '../public/db.png'
 
 export default function Home() {
   return (
@@ -29,7 +32,7 @@ export default function Home() {
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-500 font-medium'>Adam Khodier</h2>
             <h3 className='text-2xl py-2'>Full Stack Software Engineer</h3>
-            <p className='text-md py-2 leading-8 text-gray-800'>Brand new software developer open to work. Check me out with the links down below!</p>
+            <p className='text-md py-2 leading-8 text-gray-800'>Brand new full stack software developer open to work. Check me out with the links down below!</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-teal-500'>
             <a href='#'><AiFillLinkedin/></a>
@@ -41,21 +44,57 @@ export default function Home() {
             <Image className='rounded-full w-60 h-60' src={Adam}/>
           </div>
         </section> 
-
         <section>
           <div className='text-center p-10'>
-            <h3 className='text-3xl py-1'>Skills I Offer</h3>
-            <p className='text-md py-2 leading-8 text-gray-800'>I am proficient in <span className='text-teal-500'>ES6 JavaScript</span> and modern <span className='text-teal-500'>React</span> on the front end 
-            as well as <span className='text-teal-500'>Ruby on Rails</span> for the back end. I have great <span className='text-teal-500'>CSS</span> and <span className='text-teal-500'>HTML</span> skills and can use many
-            CSS frameworks such as <span className='text-teal-500'>Bootstrap</span> and <span className='text-teal-500'>Tailwind</span>. 
-            I also am familiar with databases such as <span className='text-teal-500'>PostgreSQL</span> and <span className='text-teal-500'>SQLite</span>.</p>
+            <h3 className='text-3xl py-1'>Services I Offer</h3>
+            <p className="text-md py-2 leading-8 text-gray-800">I have recently started my new journey as a full stack software engineer and can offer my programming and web design skills on the front end as well as the back end to help my clients create robust web applications.
+            </p>
           </div>
-        </section>
-          <div>
-            <div>
-              <Image src/>
+          <div className="lg:flex gap-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+              <Image src={code} width={100} height={100} />
+              <h3 className="text-lg font-medium pt-8 pb-2  ">
+                Code Your Project
+              </h3>
+              <p className="py-2">
+              Do you have an idea for your next great website? Let's make it a
+              reality.
+              </p>
+              <h4 className="py-4 text-teal-600">Languages I Use</h4>
+              <p className="text-gray-800 py-1">JavaScript</p>
+              <p className="text-gray-800 py-1">React</p>
+              <p className="text-gray-800 py-1">Ruby on Rails</p>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+              <Image src={design} width={100} height={100} />
+              <h3 className="text-lg font-medium pt-8 pb-2  ">
+                Beautiful Designs
+              </h3>
+              <p className="py-2">
+                Creating designs suited for your needs following core
+                design theory.
+              </p>
+              <h4 className="py-4 text-teal-600"> Web Design Tools I Use</h4>
+              <p className="text-gray-800 py-1">CSS</p>
+              <p className="text-gray-800 py-1">Tailwind</p>
+              <p className="text-gray-800 py-1">Bootstrap</p>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+              <Image src={db} width={100} height={100} />
+              <h3 className="text-lg font-medium pt-8 pb-2  ">
+                Database Organization
+              </h3>
+              <p className="py-2">
+                Creating and organizing database tables with proper relationship functionality.
+              </p>
+              <h4 className="py-4 text-teal-600"> Web Design Tools I Use</h4>
+              <p className="text-gray-800 py-1">PostgreSQL</p>
+              <p className="text-gray-800 py-1">SQL</p>
+              <p className="text-gray-800 py-1">SQLite</p>
+
             </div>
           </div>
+        </section>
       </main>
     </div>
   )
