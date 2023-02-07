@@ -37,10 +37,10 @@ export default function Home() {
             <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>Brand new full stack software developer open to work. Check me out with the links down below!</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-teal-500'>
-            <a href='#'><AiFillLinkedin/></a>
-            <a href='#'><AiFillYoutube/></a>
-            <a href='#'><AiFillGithub/></a>
-            <a href='#'><AiFillMediumSquare/></a>
+            <a href='https://www.linkedin.com/in/adam-khodier/'><AiFillLinkedin/></a>
+            <a href='https://www.youtube.com/channel/UCLlHRk8keWknFImPBX1cQ9Q'><AiFillYoutube/></a>
+            <a href='https://github.com/atkhodier1297'><AiFillGithub/></a>
+            <a href='https://medium.com/@khodieradam1297'><AiFillMediumSquare/></a>
           </div>
           <div className='flex justify-center py-10'>
             <Image className='rounded-full w-60 h-60 md:h-70 md:w-70' src={Adam} alt="adam-picture"/>
