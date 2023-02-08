@@ -92,7 +92,7 @@ export default function Home() {
                 Database Integration
               </h3>
               <p className="py-2 dark:text-gray-400">
-                Creating and organizing database tables with proper relationships
+                Creating and organizing project databases with proper  table relationships and authentication.
               </p>
               <h4 className="py-4 text-teal-500">Database Tools I Use</h4>
               <p className="text-gray-800 py-1 dark:text-gray-400">PostgreSQL</p>
