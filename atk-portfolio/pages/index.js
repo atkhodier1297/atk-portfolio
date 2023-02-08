@@ -24,7 +24,7 @@ export default function Home() {
             <h1 className='text-xl'>developedbyadam</h1>
             <ul className='flex items-center'>
               <li>
-                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl'/>
+                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl ml-8'/>
               </li>
               <li>
                 <a className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href='https://docs.google.com/document/d/1xaQac8ZZAlmdgnMK2Nxd6qn5uRleo0nm5kQZMHaH96A/edit?usp=sharing'>Resume</a>       
