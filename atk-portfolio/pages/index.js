@@ -7,6 +7,8 @@ import code from '../public/code.png'
 import design from '../public/design.png'
 import db from '../public/db.png'
 import {useState} from 'react';
+import games from '../public/games.jpg'
+import chat from '../public/chat.jpg'
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false)
@@ -68,8 +70,9 @@ export default function Home() {
               reality.
               </p>
               <h4 className="py-4 text-teal-500">Programming Languages I Use</h4>
-              <p className="text-gray-800 py-1 dark:text-gray-400">JavaScript</p>
-              <p className="text-gray-800 py-1 dark:text-gray-400">React</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">ES6 JavaScript</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">React.js</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">Next.js</p>
               <p className="text-gray-800 py-1 dark:text-gray-400">Ruby on Rails</p>
             </div>
             <div className="text-center shadow-lg shadow-teal-500 p-10 rounded-xl my-10">
@@ -85,6 +88,7 @@ export default function Home() {
               <p className="text-gray-800 py-1 dark:text-gray-400">CSS</p>
               <p className="text-gray-800 py-1 dark:text-gray-400">Tailwind</p>
               <p className="text-gray-800 py-1 dark:text-gray-400">Bootstrap</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">Semantic</p>
             </div>
             <div className="text-center shadow-lg shadow-teal-500 p-10 rounded-xl my-10">
               <Image src={db} width={100} height={100} alt="db-pic" />
@@ -95,9 +99,10 @@ export default function Home() {
                 Creating and organizing project databases with proper  table relationships and authentication.
               </p>
               <h4 className="py-4 text-teal-500">Database Tools I Use</h4>
-              <p className="text-gray-800 py-1 dark:text-gray-400">PostgreSQL</p>
               <p className="text-gray-800 py-1 dark:text-gray-400">SQL</p>
-              <p className="text-gray-800 py-1 dark:text-gray-400">SQLite</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">PostgreSQL</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">Firebase</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">Firestore</p>
             </div>
           </div>
         </section>
@@ -105,8 +110,18 @@ export default function Home() {
           <div className="text-center my-10">
             <h3 className='text-2xl py-2 md:text-3xl  dark:text-gray-400'>Portfolio</h3>
             <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>Below are some of the projects that I have created, 
-            check them out on my YouTube channel. Take note of my progression with each and every project!
+            check them out by clicking on the image!
             </p>
+          </div>
+          <div className="shadow-lg shadow-teal-500 my-10">
+          <a href='https://www.youtube.com/watch?v=TkBDp29Rk6c&t=170s'>
+          <Image src={games} alt=""/>
+          </a>
+          </div>
+          <div className=" shadow-lg shadow-teal-500">
+          <a href='https://atk-chat.vercel.app/'>
+          <Image src={chat} alt=""/>
+          </a>
           </div>
         </section>
       </main>
