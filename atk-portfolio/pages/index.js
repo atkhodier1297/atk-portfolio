@@ -9,6 +9,7 @@ import db from '../public/db.png'
 import {useState} from 'react';
 import games from '../public/games.jpg'
 import chat from '../public/chat.jpg'
+import delicious from '../public/delicious.jpg'
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false)
@@ -36,7 +37,7 @@ export default function Home() {
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-500 font-medium md:text-6xl'>Adam Khodier</h2>
             <h3 className='text-2xl py-2 md:text-3xl  dark:text-gray-400'>Full Stack Software Engineer</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>Brand new full stack software developer open to work. Check me out with the links down below!</p>
+            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>Brand new Full Stack Software Engineer open to work. Check me out with the links down below!</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-teal-500'>
             <a href='https://www.linkedin.com/in/adam-khodier/'><AiFillLinkedin/></a>
@@ -113,16 +114,28 @@ export default function Home() {
             check them out by clicking on the image!
             </p>
           </div>
+          <h4 className='text-2xl py-2 md:text-2xl  dark:text-gray-400 text-center'>Delicious Food</h4>
+          <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with React and the Spoonacular API</h4>
+          <div className="shadow-lg shadow-teal-500 my-10">
+          <Image src={delicious} alt="food app"/>
+          </div>
+          <h4 className='text-2xl py-2 md:text-2xl  dark:text-gray-400 text-center'>ATK GAMES</h4>
+          <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with React, Ruby on Rails, PostgreSQL, and Semantic UI</h4>
           <div className="shadow-lg shadow-teal-500 my-10">
           <a href='https://www.youtube.com/watch?v=TkBDp29Rk6c&t=170s'>
-          <Image src={games} alt=""/>
+          <Image src={games} alt="game app"/>
           </a>
           </div>
+          <h4 className='text-2xl py-2 md:text-2xl  dark:text-gray-400 text-center'>Delicious Food</h4>
+          <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with NextJS and Firebase</h4>
+          <br></br>
+          <br></br>
           <div className=" shadow-lg shadow-teal-500">
           <a href='https://atk-chat.vercel.app/'>
-          <Image src={chat} alt=""/>
+          <Image src={chat} alt="chat app"/>
           </a>
           </div>
+          
         </section>
       </main>
     </div>
