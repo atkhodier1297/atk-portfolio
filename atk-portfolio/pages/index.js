@@ -115,7 +115,7 @@ export default function Home() {
             </p>
           </div>
           <h4 className='text-2xl py-2 md:text-2xl  dark:text-gray-400 text-center'>Delicious Food</h4>
-          <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with React and the Spoonacular API</h4>
+          <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with React, Styled Components, and Spoonacular API</h4>
           <div className="shadow-lg shadow-teal-500 my-10">
           <Image src={delicious} alt="food app"/>
           </div>
@@ -126,8 +126,8 @@ export default function Home() {
           <Image src={games} alt="game app"/>
           </a>
           </div>
-          <h4 className='text-2xl py-2 md:text-2xl  dark:text-gray-400 text-center'>Delicious Food</h4>
-          <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with NextJS and Firebase</h4>
+          <h4 className='text-2xl py-2 md:text-2xl  dark:text-gray-400 text-center'>atk-chat</h4>
+          <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with NextJS, Firebase, and Tailwind</h4>
           <br></br>
           <br></br>
           <div className=" shadow-lg shadow-teal-500">
