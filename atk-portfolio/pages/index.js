@@ -117,7 +117,9 @@ export default function Home() {
           <h4 className='text-2xl py-2 md:text-2xl  dark:text-gray-400 text-center'>Delicious Food</h4>
           <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with React, Styled Components, and Spoonacular API</h4>
           <div className="shadow-lg shadow-teal-500 my-10">
+          <a href='https://youtu.be/70aQyfU-3T0'>
           <Image src={delicious} alt="food app"/>
+          </a>
           </div>
           <h4 className='text-2xl py-2 md:text-2xl  dark:text-gray-400 text-center'>ATK GAMES</h4>
           <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with React, Ruby on Rails, PostgreSQL, and Semantic UI</h4>
