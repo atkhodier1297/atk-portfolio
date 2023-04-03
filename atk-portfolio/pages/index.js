@@ -10,7 +10,7 @@ import {useState} from 'react';
 import games from '../public/games.jpg'
 import chat from '../public/chat.jpg'
 import delicious from '../public/delicious.jpg'
-import kean from '../public/kean.jpg'
+import keandip from '../public/keandip.jpg'
 import flatiron from '../public/flatiron.jpg'
 
 export default function Home() {
@@ -58,7 +58,7 @@ export default function Home() {
             </p>
           </div>
           <div className="shadow-lg shadow-teal-500 my-5 rounded-xl">
-          <Image className='rounded-xl' src={kean} alt="kean-diploma"/>
+          <Image className='rounded-xl' src={keandip} alt="kean-diploma"/>
           </div>
           <div className="shadow-lg shadow-teal-500 my-5 rounded-xl">
           <Image className='rounded-xl' src={flatiron} alt="flatiron-diploma"/>
