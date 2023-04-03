@@ -10,6 +10,8 @@ import {useState} from 'react';
 import games from '../public/games.jpg'
 import chat from '../public/chat.jpg'
 import delicious from '../public/delicious.jpg'
+import kean from '../public/kean.jpg'
+import flatiron from '../public/flatiron.jpg'
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false)
@@ -55,6 +57,12 @@ export default function Home() {
             <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>After obtaining my Bachelors Degree in Political Science with Cum Laude Honors, I decided to pursue software engineering because it was always a hobby of mine. After doing research, I decided to join Flatiron School's Full Stack Software Engineering program. Since graduating the program I have been looking for work as a Junior Developer!
             </p>
           </div>
+          <div className="shadow-lg shadow-teal-500 my-5 rounded-xl">
+          <Image className='rounded-xl' src={kean} alt="kean-diploma"/>
+          </div>
+          <div className="shadow-lg shadow-teal-500 my-5 rounded-xl">
+          <Image className='rounded-xl' src={flatiron} alt="flatiron-diploma"/>
+          </div>
           <div className='text-center p-10'>
             <h3 className='text-2xl py-2 md:text-3xl  text-teal-500'>Services I Offer</h3>
             <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>I write code and design Full Stack Web Applications using the skills I learned from Flatiron School. 
@@ -63,7 +71,7 @@ export default function Home() {
           <div className='md:text-xl max-w-xl mx-auto'>
             <div className="text-center shadow-lg shadow-teal-500 p-10 rounded-xl my-10">
               <Image src={code} width={100} height={100} alt="code-pic" />
-              <h3 className="text-lg font-medium pt-8 pb-2  dark:text-gray-400 ">
+              <h3 className="font-medium pt-8 pb-2  text-teal-500 ">
                 Code Your Project
               </h3>
               <p className="py-2 dark:text-gray-400">
@@ -78,7 +86,7 @@ export default function Home() {
             </div>
             <div className="text-center shadow-lg shadow-teal-500 p-10 rounded-xl my-10">
               <Image src={design} width={100} height={100} alt="design-pic" />
-              <h3 className="text-lg font-medium pt-8 pb-2  dark:text-gray-400 ">
+              <h3 className="font-medium pt-8 pb-2  text-teal-500 ">
                 Beautiful Designs
               </h3>
               <p className="py-2 dark:text-gray-400">
@@ -93,7 +101,7 @@ export default function Home() {
             </div>
             <div className="text-center shadow-lg shadow-teal-500 p-10 rounded-xl my-10">
               <Image src={db} width={100} height={100} alt="db-pic" />
-              <h3 className="text-lg font-medium pt-8 pb-2  dark:text-gray-400 ">
+              <h3 className="font-medium pt-8 pb-2  text-teal-500 ">
                 Database Integration
               </h3>
               <p className="py-2 dark:text-gray-400">
