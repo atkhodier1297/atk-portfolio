@@ -24,7 +24,7 @@ export default function Home() {
       <main className='bg-white p-10 md:px-20 lg:px-40 dark:bg-black '>
         <section className="min-h-screen">
           <nav className='py-10 mg-12 flex justify-between dark:text-white' >
-            <h1 className='text-xl'>developedbyadam</h1>
+            <h1 className='text-xl text-teal-500'>developedbyadam</h1>
             <ul className='flex items-center'>
               <li>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl ml-8'/>
@@ -36,8 +36,8 @@ export default function Home() {
           </nav>
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-500 font-medium md:text-6xl'>Adam Khodier</h2>
-            <h3 className='text-2xl py-2 md:text-3xl  dark:text-gray-400'>Full Stack Software Engineer</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>Brand new Full Stack Software Engineer open to work. Check me out with the links down below!</p>
+            <h3 className='text-2xl py-2 md:text-3xl  text-teal-500'>Full Stack Software Engineer</h3>
+            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>Junior Full Stack Software Engineer open to work. Check me out with the links down below!</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-teal-500'>
             <a href='https://www.linkedin.com/in/adam-khodier/'><AiFillLinkedin/></a>
@@ -51,13 +51,13 @@ export default function Home() {
         </section> 
         <section>
           <div className='text-center p-10'>
-            <h3 className='text-2xl py-2 md:text-3xl  dark:text-gray-400'>About Me</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>I graduated from Flatiron School's software engineering bootcamp in 2023, and also graduated from Kean University with a bachelors in Political Science with Cum Laude Honors in 2020. Technology has always been my true passion, so after college I decided to pursue a career in software engineering.
+            <h3 className='text-2xl py-2 md:text-3xl  text-teal-500'>About Me</h3>
+            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>After obtaining my Bachelors Degree in Political Science with Cum Laude Honors, I decided to pursue software engineering because it was always a hobby of mine. After doing research, I decided to join Flatiron School's Full Stack Software Engineering program. Since graduating the program I have been looking for work as a Junior Developer!
             </p>
           </div>
           <div className='text-center p-10'>
-            <h3 className='text-2xl py-2 md:text-3xl  dark:text-gray-400'>Services I Offer</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>I create full stack web applications that involve databases, code for the front-end and back-end, pulling and using data from API's such as Spotify and Stripe, and also full user authentication with encrypted passwords.
+            <h3 className='text-2xl py-2 md:text-3xl  text-teal-500'>Services I Offer</h3>
+            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>I write code and design Full Stack Web Applications using the skills I learned from Flatiron School. 
             </p>
           </div>
           <div className='md:text-xl max-w-xl mx-auto'>
@@ -71,9 +71,9 @@ export default function Home() {
               reality.
               </p>
               <h4 className="py-4 text-teal-500">Programming Languages I Use</h4>
-              <p className="text-gray-800 py-1 dark:text-gray-400">ES6 JavaScript</p>
-              <p className="text-gray-800 py-1 dark:text-gray-400">React.js</p>
-              <p className="text-gray-800 py-1 dark:text-gray-400">Next.js</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">JavaScript</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">React.JS</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">Next.JS</p>
               <p className="text-gray-800 py-1 dark:text-gray-400">Ruby on Rails</p>
             </div>
             <div className="text-center shadow-lg shadow-teal-500 p-10 rounded-xl my-10">
@@ -86,10 +86,10 @@ export default function Home() {
                 design theory.
               </p>
               <h4 className="py-4 text-teal-500"> Web Design Tools I Use</h4>
-              <p className="text-gray-800 py-1 dark:text-gray-400">CSS</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">CSS/HTML</p>
               <p className="text-gray-800 py-1 dark:text-gray-400">Tailwind</p>
-              <p className="text-gray-800 py-1 dark:text-gray-400">Bootstrap</p>
-              <p className="text-gray-800 py-1 dark:text-gray-400">Semantic</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">Styled Components</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">Semantic UI</p>
             </div>
             <div className="text-center shadow-lg shadow-teal-500 p-10 rounded-xl my-10">
               <Image src={db} width={100} height={100} alt="db-pic" />
@@ -97,44 +97,42 @@ export default function Home() {
                 Database Integration
               </h3>
               <p className="py-2 dark:text-gray-400">
-                Creating and organizing project databases with proper  table relationships and authentication.
+                Creating and organizing project databases with proper table relationships.
               </p>
               <h4 className="py-4 text-teal-500">Database Tools I Use</h4>
-              <p className="text-gray-800 py-1 dark:text-gray-400">SQL</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">SQLite</p>
               <p className="text-gray-800 py-1 dark:text-gray-400">PostgreSQL</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">GraphQL</p>
               <p className="text-gray-800 py-1 dark:text-gray-400">Firebase</p>
-              <p className="text-gray-800 py-1 dark:text-gray-400">Firestore</p>
             </div>
           </div>
         </section>
         <section>
           <div className="text-center my-10">
-            <h3 className='text-2xl py-2 md:text-3xl  dark:text-gray-400'>Portfolio</h3>
+            <h3 className='text-2xl py-2 md:text-3xl  text-teal-500'>Portfolio</h3>
             <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>Below are some of the projects that I have created, 
-            check them out by clicking on the image!
+            check them out by clicking on the embedded image link!
             </p>
           </div>
-          <h4 className='text-2xl py-2 md:text-2xl  dark:text-gray-400 text-center'>Delicious Food</h4>
-          <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with React, Styled Components, and Spoonacular API</h4>
-          <div className="shadow-lg shadow-teal-500 my-10">
+          <h4 className='text-2xl py-2 md:text-2xl  text-teal-500 text-center'>Delicious Recipes</h4>
+          <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with React.JS, Styled Components, and Spoonacular API</h4>
+          <div className="shadow-lg shadow-teal-500 my-5 rounded-xl">
           <a href='https://youtu.be/70aQyfU-3T0'>
-          <Image src={delicious} alt="food app"/>
+          <Image className='rounded-xl' src={delicious} alt="food app"/>
           </a>
           </div>
-          <h4 className='text-2xl py-2 md:text-2xl  dark:text-gray-400 text-center'>ATK GAMES</h4>
-          <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with React, Ruby on Rails, PostgreSQL, and Semantic UI</h4>
-          <div className="shadow-lg shadow-teal-500 my-10">
+          <h4 className='text-2xl py-2 md:text-2xl  text-teal-500 text-center'>ATK GAMES</h4>
+          <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with React.JS, Ruby on Rails, PostgreSQL, and Semantic UI</h4>
+          <div className="shadow-lg shadow-teal-500 my-5 rounded-xl">
           <a href='https://www.youtube.com/watch?v=TkBDp29Rk6c&t=170s'>
-          <Image src={games} alt="game app"/>
+          <Image className='rounded-xl' src={games} alt="game app"/>
           </a>
           </div>
-          <h4 className='text-2xl py-2 md:text-2xl  dark:text-gray-400 text-center'>atk-chat</h4>
-          <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with NextJS, Firebase, and Tailwind</h4>
-          <br></br>
-          <br></br>
-          <div className=" shadow-lg shadow-teal-500">
+          <h4 className='text-2xl py-2 md:text-2xl  text-teal-500 text-center'>ATK-CHAT</h4>
+          <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with Next.JS, Firebase, Google Auth, and Tailwind</h4>
+          <div className="shadow-lg shadow-teal-500 my-5 rounded-xl">
           <a href='https://atk-chat.vercel.app/'>
-          <Image src={chat} alt="chat app"/>
+          <Image className='rounded-xl' src={chat} alt="chat app"/>
           </a>
           </div>
           
