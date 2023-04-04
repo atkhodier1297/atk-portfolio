@@ -12,6 +12,7 @@ import chat from '../public/chat.jpg'
 import delicious from '../public/delicious.jpg'
 import keandip from '../public/keandip.jpg'
 import flatiron from '../public/flatiron.jpg'
+import ContactMe from '@/components/ContactMe'
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false)
@@ -143,7 +144,9 @@ export default function Home() {
           <Image className='rounded-xl' src={chat} alt="chat app"/>
           </a>
           </div>
-          
+        </section>
+        <section>
+          <ContactMe/>
         </section>
       </main>
     </div>
