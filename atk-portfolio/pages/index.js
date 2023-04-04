@@ -25,15 +25,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className='bg-white md:px-20 lg:px-40 dark:bg-black'>
-        <section>
-          <nav className='py-10 mg-12 flex items-center justify-between dark:text-white' >
+        <section className="min-h-screen">
+          <nav className='py-10 mg-12 flex items center justify-between dark:text-white' >
             <h1 className='text-2xl text-teal-500'>developedbyadam</h1>
             <ul className='flex items-center'>
               <li>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl ml-8'/>
               </li>
               <li>
-                <a className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href='https://docs.google.com/document/d/1JMBScfEEVe2E1qbukrn3BzZwd4J80BTqWYTYq4g_mcY/edit'>Resume</a>       
+                <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href='https://docs.google.com/document/d/1JMBScfEEVe2E1qbukrn3BzZwd4J80BTqWYTYq4g_mcY/edit'>Resume</a>       
               </li>
             </ul>
           </nav>
@@ -147,7 +147,8 @@ export default function Home() {
         </section>
         <section>
           <ContactMe/>
-        </section>
+         </section>
+         <br></br>
       </main>
     </div>
   )
