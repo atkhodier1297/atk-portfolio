@@ -27,7 +27,7 @@ export default function Home() {
       <main className='bg-white md:px-20 lg:px-40 dark:bg-black'>
         <section className="min-h-screen">
           <nav className='py-10 mg-12 flex items center justify-between dark:text-white' >
-            <h1 className='text-2xl text-teal-500'>developedbyadam</h1>
+            <h1 className='text-xl text-teal-500'>developedbyadam</h1>
             <ul className='flex items-center'>
               <li>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl ml-8'/>
