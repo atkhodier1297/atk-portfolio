@@ -66,7 +66,8 @@ export default function Home() {
           </div>
           <div className='text-center p-10'>
             <h3 className='text-2xl py-2 md:text-3xl  text-teal-500'>Services I Offer</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>I write code and design Full Stack Web Applications using the skills I learned from Flatiron School. 
+            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>
+              Since the begginging of my software engineering journey I have made an attempt to learn as many skills as possible, so I can create fantastic Full Stack Web Applications with legible/neat code for the front-end and back-end, great web design with modern design philosophy, and databases with scalability and table organization.
             </p>
           </div>
           <div className='md:text-xl max-w-xl mx-auto'>
@@ -125,21 +126,21 @@ export default function Home() {
           </div>
           <h4 className='text-2xl py-2 md:text-2xl  text-teal-500 text-center'>Delicious Recipes</h4>
           <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with React.JS, Styled Components, and Spoonacular API</h4>
-          <div className="shadow-lg shadow-teal-500 my-5 rounded-xl">
+          <div className="shadow-lg shadow-teal-500 my-10 rounded-xl">
           <a href='https://youtu.be/70aQyfU-3T0'>
           <Image className='rounded-xl' src={delicious} alt="food app"/>
           </a>
           </div>
           <h4 className='text-2xl py-2 md:text-2xl  text-teal-500 text-center'>ATK GAMES</h4>
           <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with React.JS, Ruby on Rails, PostgreSQL, and Semantic UI</h4>
-          <div className="shadow-lg shadow-teal-500 my-5 rounded-xl">
+          <div className="shadow-lg shadow-teal-500 my-10 rounded-xl">
           <a href='https://www.youtube.com/watch?v=TkBDp29Rk6c&t=170s'>
           <Image className='rounded-xl' src={games} alt="game app"/>
           </a>
           </div>
           <h4 className='text-2xl py-2 md:text-2xl  text-teal-500 text-center'>ATK-CHAT</h4>
           <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with Next.JS, Firebase, Google Auth, and Tailwind</h4>
-          <div className="shadow-lg shadow-teal-500 my-5 rounded-xl">
+          <div className="shadow-lg shadow-teal-500 my-10 rounded-xl">
           <a href='https://atk-chat.vercel.app/'>
           <Image className='rounded-xl' src={chat} alt="chat app"/>
           </a>
@@ -147,8 +148,8 @@ export default function Home() {
         </section>
         <section>
           <ContactMe/>
+        <br></br>
          </section>
-         <br></br>
       </main>
     </div>
   )
