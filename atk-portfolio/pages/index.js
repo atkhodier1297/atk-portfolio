@@ -25,7 +25,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className='bg-white md:px-20 lg:px-40 dark:bg-black'>
-        <section className="min-h-screen">
+        <section>
           <nav className='py-10 mg-12 flex items center justify-between dark:text-white' >
             <h1 className='text-xl text-teal-500'>developedbyadam</h1>
             <ul className='flex items-center'>
@@ -49,7 +49,7 @@ export default function Home() {
             <a href='https://medium.com/@khodieradam1297'><AiFillMediumSquare/></a>
           </div>
           <div className='flex justify-center py-10'>
-            <Image className='rounded-full w-60 h-60 md:h-70 md:w-70' src={Adam} alt="adam-picture"/>
+            <Image className='rounded-full w-60 h-60 md:h-60 md:w-60' src={Adam} alt="adam-picture"/>
           </div>
         </section> 
         <section>
