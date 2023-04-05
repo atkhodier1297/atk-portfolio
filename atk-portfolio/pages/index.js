@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import {BsFillMoonStarsFill} from 'react-icons/bs'
+import {BsFillSunFill} from 'react-icons/bs'
 import {AiFillLinkedin, AiFillYoutube, AiFillGithub, AiFillMediumSquare} from 'react-icons/ai'
 import Image from 'next/image'
 import Adam from '../public/Adam.png'
@@ -15,7 +15,7 @@ import flatiron from '../public/flatiron.jpg'
 import ContactMe from '@/components/ContactMe'
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false)
+  const [darkMode, setDarkMode] = useState(true)
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
@@ -30,7 +30,7 @@ export default function Home() {
             <h1 className='text-xl text-teal-500'>developedbyadam</h1>
             <ul className='flex items-center'>
               <li>
-                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl ml-8'/>
+                <BsFillSunFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl ml-8'/>
               </li>
               <li>
                 <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href='https://docs.google.com/document/d/1JMBScfEEVe2E1qbukrn3BzZwd4J80BTqWYTYq4g_mcY/edit'>Resume</a>       
