@@ -50,7 +50,7 @@ export default function Home() {
             <a href='https://medium.com/@khodieradam1297'><AiFillMediumSquare/></a>
           </div>
           <div className='flex justify-center py-10'>
-            <Image className='animate-ping rounded-full w-60 h-60 md:h-60 md:w-60' src={Adam} alt="adam-picture"/>
+            <Image className='animate-pulse rounded-full w-60 h-60 md:h-60 md:w-60' src={Adam} alt="adam-picture"/>
           </div>
         </section> 
         <section>
