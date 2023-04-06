@@ -31,10 +31,10 @@ export default function Home() {
             <h1 className='text-xl text-teal-500'>developedbyadam</h1>
             <ul className='flex items-center'>
               <li>
-                <BsFillSunFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl ml-8'/>
+                <BsFillSunFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl ml-8 animate-pulse'/>
               </li>
               <li>
-                <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href='https://docs.google.com/document/d/1JMBScfEEVe2E1qbukrn3BzZwd4J80BTqWYTYq4g_mcY/edit'>Resume</a>       
+                <a className='hover:opacity-50 bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href='https://docs.google.com/document/d/1JMBScfEEVe2E1qbukrn3BzZwd4J80BTqWYTYq4g_mcY/edit'>Resume</a>       
               </li>
             </ul>
           </nav>
@@ -44,13 +44,13 @@ export default function Home() {
             <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>Junior Full Stack Software Engineer open to work. Check me out with the links down below!</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-teal-500'>
-            <a href='https://www.linkedin.com/in/adam-khodier/'><AiFillLinkedin/></a>
-            <a href='https://www.youtube.com/channel/UCLlHRk8keWknFImPBX1cQ9Q'><AiFillYoutube/></a>
-            <a href='https://github.com/atkhodier1297'><AiFillGithub/></a>
-            <a href='https://medium.com/@khodieradam1297'><AiFillMediumSquare/></a>
+            <a href='https://www.linkedin.com/in/adam-khodier/'><AiFillLinkedin className='animate-bounce'/></a>
+            <a href='https://www.youtube.com/channel/UCLlHRk8keWknFImPBX1cQ9Q'><AiFillYoutube className='animate-bounce'/></a>
+            <a href='https://github.com/atkhodier1297'><AiFillGithub className='animate-bounce'/></a>
+            <a href='https://medium.com/@khodieradam1297'><AiFillMediumSquare className='animate-bounce'/></a>
           </div>
           <div className='flex justify-center py-10'>
-            <Image className='animate-pulse rounded-full w-60 h-60 md:h-60 md:w-60' src={Adam} alt="adam-picture"/>
+            <Image className='animate-spin rounded-full w-60 h-60 md:h-80 md:w-80' src={Adam} alt="adam-picture"/>
           </div>
         </section> 
         <section>
@@ -60,10 +60,16 @@ export default function Home() {
             </p>
           </div>
           <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
-          <Image className='animate-pulse w-full rounded-xl' src={keandip} alt="kean-diploma"/>
+          <h3 className='text-2xl py-2 md:text-3xl text-center text-teal-500'>Bachelors Degree</h3>
+            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400 text-center'>Received January of 2020
+            </p>
+          <Image className='animate-pulse w-full rounded-xl px-10 pb-10 pt-10' src={keandip} alt="kean-diploma"/>
           </div>
           <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
-          <Image className='animate-pulse rounded-xl' src={flatiron} alt="flatiron-diploma"/>
+          <h3 className='text-2xl py-2 md:text-3xl text-center text-teal-500'>Bachelors Degree</h3>
+            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400 text-center'>Received January of 2023
+            </p>
+          <Image className='animate-pulse rounded-xl px-10 pb-10 pt-10' src={flatiron} alt="flatiron-diploma"/>
           </div>
           <div className='text-center p-10'>
             <h3 className='text-2xl py-2 md:text-3xl  text-teal-500'>Services I Offer</h3>
@@ -73,7 +79,7 @@ export default function Home() {
           </div>
           <div className='md:text-xl max-w-xl mx-auto'>
             <div className="text-center shadow-xl shadow-teal-500 p-10 rounded-xl my-10">
-              <Image src={code} width={100} height={100} alt="code-pic" />
+              <Image className='animate-bounce' src={code} width={100} height={100} alt="code-pic" />
               <h3 className="font-medium pt-8 pb-2  text-teal-500 ">
                 Code Your Project
               </h3>
@@ -88,7 +94,7 @@ export default function Home() {
               <p className="text-gray-800 py-1 dark:text-gray-400">Ruby on Rails</p>
             </div>
             <div className="text-center shadow-xl shadow-teal-500 p-10 rounded-xl my-10">
-              <Image src={design} width={100} height={100} alt="design-pic" />
+              <Image className='animate-bounce' src={design} width={100} height={100} alt="design-pic" />
               <h3 className="font-medium pt-8 pb-2  text-teal-500 ">
                 Beautiful Designs
               </h3>
@@ -103,7 +109,7 @@ export default function Home() {
               <p className="text-gray-800 py-1 dark:text-gray-400">Semantic UI</p>
             </div>
             <div className="text-center shadow-xl shadow-teal-500 p-10 rounded-xl my-10">
-              <Image src={db} width={100} height={100} alt="db-pic" />
+              <Image className='animate-bounce' src={db} width={100} height={100} alt="db-pic" />
               <h3 className="font-medium pt-8 pb-2  text-teal-500 ">
                 Database Integration
               </h3>
@@ -125,25 +131,26 @@ export default function Home() {
             check them out by clicking on the embedded image link!
             </p>
           </div>
+          <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
           <h4 className='text-2xl py-2 md:text-2xl  text-teal-500 text-center'>Delicious Recipes</h4>
           <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with React.JS, Styled Components, and Spoonacular API</h4>
-          <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
           <a href='https://youtu.be/70aQyfU-3T0'>
-          <Image className='animate-pulse rounded-xl' src={delicious} alt="food app"/>
+          <Image className='animate-pulse rounded-xl px-10 pb-10 pt-10' src={delicious} alt="food app"/>
           </a>
           </div>
+          <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
           <h4 className='text-2xl py-2 md:text-2xl  text-teal-500 text-center'>ATK GAMES</h4>
           <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with React.JS, Ruby on Rails, PostgreSQL, and Semantic UI</h4>
-          <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
           <a href='https://www.youtube.com/watch?v=TkBDp29Rk6c&t=170s'>
-          <Image className='animate-pulse rounded-xl' src={games} alt="game app"/>
+          <Image className='animate-pulse rounded-xl px-10 pb-10 pt-10' src={games} alt="game app"/>
           </a>
           </div>
-          <h4 className='text-2xl py-2 md:text-2xl  text-teal-500 text-center'>ATK-CHAT</h4>
-          <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with Next.JS, Firebase, Google Auth, and Tailwind</h4>
+         
           <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
+           <h4 className='text-2xl py-2 md:text-2xl  text-teal-500 text-center'>ATK-CHAT</h4>
+          <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with Next.JS, Firebase, Google Auth, and Tailwind</h4>
           <a href='https://atk-chat.vercel.app/'>
-          <Image className='animate-pulse rounded-xl' src={chat} alt="chat app"/>
+          <Image className='animate-pulse rounded-xl px-10 pb-10 pt-10' src={chat} alt="chat app"/>
           </a>
           </div>
         </section>

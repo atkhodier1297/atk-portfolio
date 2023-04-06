@@ -73,7 +73,7 @@ const ContactMe = () => {
         </div>
         <div className="flex items-center justify-between">
           <button
-            className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md '
+            className='hover:opacity-50 bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md '
             type="submit"
           >
             Submit
