@@ -9,6 +9,15 @@ body {
   height: 100%;
 }
 
+.animate-pulse {
+  animation: pulse 3s ease-in-out infinite;
+}
+
+.animate-ping {
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }

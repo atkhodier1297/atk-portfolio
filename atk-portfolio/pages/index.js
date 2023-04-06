@@ -14,6 +14,7 @@ import keandip from '../public/keandip.jpg'
 import flatiron from '../public/flatiron.jpg'
 import ContactMe from '@/components/ContactMe'
 
+
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true)
   return (
@@ -49,7 +50,7 @@ export default function Home() {
             <a href='https://medium.com/@khodieradam1297'><AiFillMediumSquare/></a>
           </div>
           <div className='flex justify-center py-10'>
-            <Image className='rounded-full w-60 h-60 md:h-60 md:w-60' src={Adam} alt="adam-picture"/>
+            <Image className='animate-ping rounded-full w-60 h-60 md:h-60 md:w-60' src={Adam} alt="adam-picture"/>
           </div>
         </section> 
         <section>
@@ -58,11 +59,11 @@ export default function Home() {
             <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>After obtaining my Bachelors Degree in Political Science with Cum Laude Honors, I decided to pursue software engineering because it was always a hobby of mine. After doing research, I decided to join Flatiron School's Full Stack Software Engineering program. Since graduating the program I have been looking for work as a Junior Developer!
             </p>
           </div>
-          <div className="shadow-lg shadow-teal-500 my-5 rounded-xl">
-          <Image className='rounded-xl' src={keandip} alt="kean-diploma"/>
+          <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
+          <Image className='animate-pulse w-full rounded-xl' src={keandip} alt="kean-diploma"/>
           </div>
-          <div className="shadow-lg shadow-teal-500 my-5 rounded-xl">
-          <Image className='rounded-xl' src={flatiron} alt="flatiron-diploma"/>
+          <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
+          <Image className='animate-pulse rounded-xl' src={flatiron} alt="flatiron-diploma"/>
           </div>
           <div className='text-center p-10'>
             <h3 className='text-2xl py-2 md:text-3xl  text-teal-500'>Services I Offer</h3>
@@ -71,7 +72,7 @@ export default function Home() {
             </p>
           </div>
           <div className='md:text-xl max-w-xl mx-auto'>
-            <div className="text-center shadow-lg shadow-teal-500 p-10 rounded-xl my-10">
+            <div className="text-center shadow-xl shadow-teal-500 p-10 rounded-xl my-10">
               <Image src={code} width={100} height={100} alt="code-pic" />
               <h3 className="font-medium pt-8 pb-2  text-teal-500 ">
                 Code Your Project
@@ -86,7 +87,7 @@ export default function Home() {
               <p className="text-gray-800 py-1 dark:text-gray-400">Next.JS</p>
               <p className="text-gray-800 py-1 dark:text-gray-400">Ruby on Rails</p>
             </div>
-            <div className="text-center shadow-lg shadow-teal-500 p-10 rounded-xl my-10">
+            <div className="text-center shadow-xl shadow-teal-500 p-10 rounded-xl my-10">
               <Image src={design} width={100} height={100} alt="design-pic" />
               <h3 className="font-medium pt-8 pb-2  text-teal-500 ">
                 Beautiful Designs
@@ -101,7 +102,7 @@ export default function Home() {
               <p className="text-gray-800 py-1 dark:text-gray-400">Styled Components</p>
               <p className="text-gray-800 py-1 dark:text-gray-400">Semantic UI</p>
             </div>
-            <div className="text-center shadow-lg shadow-teal-500 p-10 rounded-xl my-10">
+            <div className="text-center shadow-xl shadow-teal-500 p-10 rounded-xl my-10">
               <Image src={db} width={100} height={100} alt="db-pic" />
               <h3 className="font-medium pt-8 pb-2  text-teal-500 ">
                 Database Integration
@@ -126,23 +127,23 @@ export default function Home() {
           </div>
           <h4 className='text-2xl py-2 md:text-2xl  text-teal-500 text-center'>Delicious Recipes</h4>
           <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with React.JS, Styled Components, and Spoonacular API</h4>
-          <div className="shadow-lg shadow-teal-500 my-10 rounded-xl">
+          <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
           <a href='https://youtu.be/70aQyfU-3T0'>
-          <Image className='rounded-xl' src={delicious} alt="food app"/>
+          <Image className='animate-pulse rounded-xl' src={delicious} alt="food app"/>
           </a>
           </div>
           <h4 className='text-2xl py-2 md:text-2xl  text-teal-500 text-center'>ATK GAMES</h4>
           <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with React.JS, Ruby on Rails, PostgreSQL, and Semantic UI</h4>
-          <div className="shadow-lg shadow-teal-500 my-10 rounded-xl">
+          <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
           <a href='https://www.youtube.com/watch?v=TkBDp29Rk6c&t=170s'>
-          <Image className='rounded-xl' src={games} alt="game app"/>
+          <Image className='animate-pulse rounded-xl' src={games} alt="game app"/>
           </a>
           </div>
           <h4 className='text-2xl py-2 md:text-2xl  text-teal-500 text-center'>ATK-CHAT</h4>
           <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with Next.JS, Firebase, Google Auth, and Tailwind</h4>
-          <div className="shadow-lg shadow-teal-500 my-10 rounded-xl">
+          <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
           <a href='https://atk-chat.vercel.app/'>
-          <Image className='rounded-xl' src={chat} alt="chat app"/>
+          <Image className='animate-pulse rounded-xl' src={chat} alt="chat app"/>
           </a>
           </div>
         </section>

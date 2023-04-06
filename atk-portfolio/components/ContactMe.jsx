@@ -30,7 +30,7 @@ const ContactMe = () => {
   };
 
   return (
-    <div className="mx-auto shadow-lg shadow-teal-500 my-20">
+    <div className="rounded-xl mx-auto shadow-xl shadow-teal-500 my-20">
       <form onSubmit={handleSubmit} className="bg-white dark:bg-black shadow-md rounded px-8 pt-6 pb-8 mb-4">
         <h2 className="text-3xl font-bold mb-4 text-center text-teal-500">Contact Me</h2>
         <div className="mb-4">
