@@ -63,13 +63,13 @@ export default function Home() {
           <h3 className='text-2xl py-2 md:text-3xl text-center text-teal-500'>Bachelors Degree</h3>
             <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400 text-center'>Received January of 2020
             </p>
-          <Image className='animate-pulse w-full rounded-xl px-10 pb-10 pt-10' src={keandip} alt="kean-diploma"/>
+          <Image className='animate-pulse w-full rounded-xl px-5 pb-10 pt-5' src={keandip} alt="kean-diploma"/>
           </div>
           <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
           <h3 className='text-2xl py-2 md:text-3xl text-center text-teal-500'>Certificate of Completion</h3>
             <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400 text-center'>Received January of 2023
             </p>
-          <Image className='animate-pulse rounded-xl px-10 pb-10 pt-10' src={flatiron} alt="flatiron-diploma"/>
+          <Image className='animate-pulse rounded-xl px-5 pb-10 pt-5' src={flatiron} alt="flatiron-diploma"/>
           </div>
           <div className='text-center p-10'>
             <h3 className='text-2xl py-2 md:text-3xl  text-teal-500'>Services I Offer</h3>
@@ -135,21 +135,21 @@ export default function Home() {
           <h4 className='text-2xl py-2 md:text-2xl  text-teal-500 text-center'>Delicious Recipes</h4>
           <h4 className='text-xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with React.JS, Styled Components, and Spoonacular API</h4>
           <a href='https://youtu.be/70aQyfU-3T0'>
-          <Image className='animate-pulse rounded-xl px-10 pb-10 pt-10' src={delicious} alt="food app"/>
+          <Image className='animate-pulse rounded-xl px-5 pb-10 pt-5' src={delicious} alt="food app"/>
           </a>
           </div>
           <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
           <h4 className='text-2xl py-2 md:text-2xl  text-teal-500 text-center'>ATK GAMES</h4>
           <h4 className='text-xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with React.JS, Ruby on Rails, PostgreSQL, and Semantic UI</h4>
           <a href='https://www.youtube.com/watch?v=TkBDp29Rk6c&t=170s'>
-          <Image className='animate-pulse rounded-xl px-10 pb-10 pt-10' src={games} alt="game app"/>
+          <Image className='animate-pulse rounded-xl px-5 pb-10 pt-5' src={games} alt="game app"/>
           </a>
           </div>
           <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
            <h4 className='text-2xl py-2 md:text-2xl  text-teal-500 text-center'>ATK-CHAT</h4>
           <h4 className='text-xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with Next.JS, Firebase, Google Auth, and Tailwind</h4>
           <a href='https://atk-chat.vercel.app/'>
-          <Image className='animate-pulse rounded-xl px-10 pb-10 pt-10' src={chat} alt="chat app"/>
+          <Image className='animate-pulse rounded-xl px-5 pb-10 pt-5' src={chat} alt="chat app"/>
           </a>
           </div>
         </section>
