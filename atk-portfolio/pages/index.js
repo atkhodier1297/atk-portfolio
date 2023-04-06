@@ -66,7 +66,7 @@ export default function Home() {
           <Image className='animate-pulse w-full rounded-xl px-10 pb-10 pt-10' src={keandip} alt="kean-diploma"/>
           </div>
           <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
-          <h3 className='text-2xl py-2 md:text-3xl text-center text-teal-500'>Bachelors Degree</h3>
+          <h3 className='text-2xl py-2 md:text-3xl text-center text-teal-500'>Certificate of Completion</h3>
             <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400 text-center'>Received January of 2023
             </p>
           <Image className='animate-pulse rounded-xl px-10 pb-10 pt-10' src={flatiron} alt="flatiron-diploma"/>
