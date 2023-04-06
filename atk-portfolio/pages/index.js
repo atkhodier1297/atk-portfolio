@@ -133,22 +133,21 @@ export default function Home() {
           </div>
           <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
           <h4 className='text-2xl py-2 md:text-2xl  text-teal-500 text-center'>Delicious Recipes</h4>
-          <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with React.JS, Styled Components, and Spoonacular API</h4>
+          <h4 className='text-xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with React.JS, Styled Components, and Spoonacular API</h4>
           <a href='https://youtu.be/70aQyfU-3T0'>
           <Image className='animate-pulse rounded-xl px-10 pb-10 pt-10' src={delicious} alt="food app"/>
           </a>
           </div>
           <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
           <h4 className='text-2xl py-2 md:text-2xl  text-teal-500 text-center'>ATK GAMES</h4>
-          <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with React.JS, Ruby on Rails, PostgreSQL, and Semantic UI</h4>
+          <h4 className='text-xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with React.JS, Ruby on Rails, PostgreSQL, and Semantic UI</h4>
           <a href='https://www.youtube.com/watch?v=TkBDp29Rk6c&t=170s'>
           <Image className='animate-pulse rounded-xl px-10 pb-10 pt-10' src={games} alt="game app"/>
           </a>
           </div>
-         
           <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
            <h4 className='text-2xl py-2 md:text-2xl  text-teal-500 text-center'>ATK-CHAT</h4>
-          <h4 className='text-2xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with Next.JS, Firebase, Google Auth, and Tailwind</h4>
+          <h4 className='text-xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with Next.JS, Firebase, Google Auth, and Tailwind</h4>
           <a href='https://atk-chat.vercel.app/'>
           <Image className='animate-pulse rounded-xl px-10 pb-10 pt-10' src={chat} alt="chat app"/>
           </a>
