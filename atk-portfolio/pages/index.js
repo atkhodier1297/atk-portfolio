@@ -43,7 +43,7 @@ export default function Home() {
             <h3 className='text-2xl py-2 md:text-3xl  text-teal-500'>Full Stack Software Engineer</h3>
             <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>Junior Full Stack Software Engineer open to work. Check me out with the links down below!</p>
           </div>
-          <div className='text-5xl flex justify-center gap-16 py-3 text-teal-500'>
+          <div className='text-5xl flex justify-center gap-10 py-3 text-teal-500'>
             <a href='https://www.linkedin.com/in/adam-khodier/'><AiFillLinkedin className='animate-bounce'/></a>
             <a href='https://www.youtube.com/channel/UCLlHRk8keWknFImPBX1cQ9Q'><AiFillYoutube className='animate-bounce'/></a>
             <a href='https://github.com/atkhodier1297'><AiFillGithub className='animate-bounce'/></a>
