@@ -41,7 +41,7 @@ export default function Home() {
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-500 font-medium md:text-6xl'>Adam Khodier</h2>
             <h3 className='text-2xl py-2 md:text-3xl  text-teal-500'>Full Stack Software Engineer</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>Junior Full Stack Software Engineer open to work. Check me out with the links down below!</p>
+            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>Full Stack Software Engineer open to work, check me out with the links down below!</p>
           </div>
           <div className='text-5xl flex justify-center gap-10 py-3 text-teal-500'>
             <a href='https://www.linkedin.com/in/adam-khodier/'><AiFillLinkedin className='animate-bounce'/></a>
@@ -74,7 +74,7 @@ export default function Home() {
           <div className='text-center p-10'>
             <h3 className='text-2xl py-2 md:text-3xl  text-teal-500'>Services I Offer</h3>
             <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>
-              Since the begginging of my software engineering journey I have made an attempt to learn as many skills as possible, so I can create fantastic Full Stack Web Applications with legible/neat code for the front-end and back-end, great web design with modern design philosophy, and databases with scalability and table organization.
+              Since the beginning of my software engineering journey I have made an attempt to learn as many skills as possible, so I can create fantastic Full Stack Web Applications with legible/neat code for the front-end and back-end, great web design with modern design philosophy, and databases with scalability and table organization.
             </p>
           </div>
           <div className='md:text-xl max-w-xl mx-auto'>
