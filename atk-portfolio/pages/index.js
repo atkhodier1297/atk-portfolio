@@ -1,23 +1,27 @@
-import Head from 'next/head'
-import {BsFillSunFill} from 'react-icons/bs'
-import {AiFillLinkedin, AiFillYoutube, AiFillGithub, AiFillMediumSquare} from 'react-icons/ai'
-import Image from 'next/image'
-import Adam from '../public/Adam.png'
-import ATKSTORE from '../public/ATKSTORE.jpg'
-import code from '../public/code.png'
-import design from '../public/design.png'
-import db from '../public/db.png'
-import {useState} from 'react';
-import games from '../public/games.jpg'
-import chat from '../public/chat.jpg'
-import delicious from '../public/delicious.jpg'
-import keandip from '../public/keandip.jpg'
-import flatiron from '../public/flatiron.jpg'
-import ContactMe from '@/components/ContactMe'
-
+import Head from "next/head";
+import { BsFillSunFill } from "react-icons/bs";
+import {
+  AiFillLinkedin,
+  AiFillYoutube,
+  AiFillGithub,
+  AiFillMediumSquare,
+} from "react-icons/ai";
+import Image from "next/image";
+import profile from "../public/profile.png";
+import ATKSTORE from "../public/ATKSTORE.jpg";
+import code from "../public/code.png";
+import design from "../public/design.png";
+import db from "../public/db.png";
+import { useState } from "react";
+import games from "../public/games.jpg";
+import chat from "../public/chat.jpg";
+import delicious from "../public/delicious.jpg";
+import keandip from "../public/keandip.jpg";
+import flatiron from "../public/flatiron.jpg";
+import ContactMe from "@/components/ContactMe";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(true)
+  const [darkMode, setDarkMode] = useState(true);
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
@@ -26,97 +30,190 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='bg-white px-5 md:px-20 lg:px-40 dark:bg-black'>
+      <main className="bg-white px-5 md:px-20 lg:px-40 dark:bg-black">
         <section>
-          <nav className='py-10 mg-12 flex items center justify-between dark:text-white' >
-            <h1 className='text-xl text-teal-500'>deployedbyadam</h1>
-            <ul className='flex items-center'>
+          <nav className="py-10 mg-12 flex items center justify-between dark:text-white">
+            <h1 className="text-xl text-teal-500">deployedbyadam</h1>
+            <ul className="flex items-center">
               <li>
-                <BsFillSunFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl mx-5 animate-pulse'/>
+                <BsFillSunFill
+                  onClick={() => setDarkMode(!darkMode)}
+                  className="cursor-pointer text-2xl mx-5 animate-pulse"
+                />
               </li>
               <li>
-                <a className='hover:opacity-50 bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ' href='https://docs.google.com/document/d/1JMBScfEEVe2E1qbukrn3BzZwd4J80BTqWYTYq4g_mcY/edit'>Resume</a>       
+                <a
+                  className="hover:opacity-50 bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md "
+                  href="https://docs.google.com/document/d/1JMBScfEEVe2E1qbukrn3BzZwd4J80BTqWYTYq4g_mcY/edit"
+                >
+                  Resume
+                </a>
               </li>
             </ul>
           </nav>
-          <div className='text-center p-10'>
-            <h2 className='text-5xl py-2 text-teal-500 font-medium md:text-6xl'>Adam Khodier</h2>
-            <h3 className='text-2xl py-2 md:text-3xl  text-teal-500'>Full Stack Software Engineer</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>Full Stack Software Engineer open to work, check me out with the links down below!</p>
+          <div className="text-center p-10">
+            <h2 className="text-5xl py-2 text-teal-500 font-medium md:text-6xl">
+              Adam Khodier
+            </h2>
+            <h3 className="text-2xl py-2 md:text-3xl  text-teal-500">
+              Full Stack Software Engineer
+            </h3>
+            <p className="text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400">
+              Full Stack Software Engineer open to work, check me out with the
+              links down below!
+            </p>
           </div>
-          <div className='text-5xl flex justify-center gap-10 py-3 text-teal-500'>
-            <a href='https://www.linkedin.com/in/adam-khodier/'><AiFillLinkedin className='animate-bounce'/></a>
-            <a href='https://www.youtube.com/channel/UCLlHRk8keWknFImPBX1cQ9Q'><AiFillYoutube className='animate-bounce'/></a>
-            <a href='https://github.com/atkhodier1297'><AiFillGithub className='animate-bounce'/></a>
-            <a href='https://medium.com/@khodieradam1297'><AiFillMediumSquare className='animate-bounce'/></a>
+          <div className="text-5xl flex justify-center gap-10 py-3 text-teal-500">
+            <a href="https://www.linkedin.com/in/adam-khodier/">
+              <AiFillLinkedin className="animate-bounce" />
+            </a>
+            <a href="https://www.youtube.com/channel/UCLlHRk8keWknFImPBX1cQ9Q">
+              <AiFillYoutube className="animate-bounce" />
+            </a>
+            <a href="https://github.com/atkhodier1297">
+              <AiFillGithub className="animate-bounce" />
+            </a>
+            <a href="https://medium.com/@khodieradam1297">
+              <AiFillMediumSquare className="animate-bounce" />
+            </a>
           </div>
         </section>
         <section>
-          <div className='text-center p-10'>
-            <h3 className='text-2xl py-2 md:text-3xl  text-teal-500'>About Me</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>Graduated from Kean University earning a BA in Political Science with Cum Laude Honors. Recently graduated from Flatiron School's Full Stack Software Engineering Bootcamp. Passionate and creative software engineer who is eager to work, solve companies problems, and learn new skills. Driven not only to learn, but to help others grow.
+          {/* <div className="text-center p-10">
+            <h3 className="text-2xl py-2 md:text-3xl  text-teal-500">
+              About Me
+            </h3>
+            <p className="text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400">
+              Graduated from Kean University earning a BA in Political Science
+              with Cum Laude Honors. Recently graduated from Flatiron School's
+              Full Stack Software Engineering Bootcamp. Passionate and creative
+              software engineer who is eager to work, solve companies problems,
+              and learn new skills. Driven not only to learn, but to help others
+              grow.
             </p>
+          </div> */}
+          <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
+            <h3 className="text-2xl py-2 md:text-3xl text-center text-teal-500">
+              About Me
+            </h3>
+            <p className="px-5 text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400 text-center">
+            Graduated from Kean University earning a BA in Political Science
+              with Cum Laude Honors. Recently graduated from Flatiron School's
+              Full Stack Software Engineering Bootcamp. Passionate and creative
+              software engineer who is eager to work, solve companies problems,
+              and learn new skills. Driven not only to learn, but to help others
+              grow.
+            </p>
+            <Image
+              className="px-5 pb-10 pt-5"
+              src={profile}
+              alt="profile-pic"
+            />
           </div>
           <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
-          <h3 className='text-2xl py-2 md:text-3xl text-center text-teal-500'>Bachelors Degree</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400 text-center'>Received January of 2020
+            <h3 className="text-2xl py-2 md:text-3xl text-center text-teal-500">
+              Bachelors Degree
+            </h3>
+            <p className="text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400 text-center">
+              Received January of 2020
             </p>
-          <Image className='w-full rounded-xl px-5 pb-10 pt-5' src={keandip} alt="kean-diploma"/>
+            <Image
+              className="w-full rounded-xl px-5 pb-10 pt-5"
+              src={keandip}
+              alt="kean-diploma"
+            />
           </div>
           <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
-          <h3 className='text-2xl py-2 md:text-3xl text-center text-teal-500'>Certificate of Completion</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400 text-center'>Received January of 2023
+            <h3 className="text-2xl py-2 md:text-3xl text-center text-teal-500">
+              Certificate of Completion
+            </h3>
+            <p className="text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400 text-center">
+              Received January of 2023
             </p>
-          <Image className='rounded-xl px-5 pb-10 pt-5' src={flatiron} alt="flatiron-diploma"/>
+            <Image
+              className="rounded-xl px-5 pb-10 pt-5"
+              src={flatiron}
+              alt="flatiron-diploma"
+            />
           </div>
-          <div className='text-center p-10'>
-            <h3 className='text-2xl py-2 md:text-3xl  text-teal-500'>Services I Offer</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>
-              Since the beginning of my software engineering journey I have made an attempt to learn as many skills as possible, so I can create fantastic Full Stack Web Applications with legible/neat code for the front-end and back-end, great web design with modern design philosophy, and databases with scalability and table organization.
-            </p>
-          </div>
-          <div className='md:text-xl max-w-xl mx-auto'>
+          {/* <div className="text-center">
+            <h3 className="text-2xl py-2 md:text-3xl  text-teal-500">
+              Services I Offer
+            </h3>
+          </div> */}
+          <div className="md:text-xl max-w-xl mx-auto">
             <div className="text-center shadow-xl shadow-teal-500 p-10 rounded-xl my-10">
-              <Image className='animate-bounce' src={code} width={100} height={100} alt="code-pic" />
+              <Image
+                className="animate-bounce"
+                src={code}
+                width={100}
+                height={100}
+                alt="code-pic"
+              />
               <h3 className="font-medium pt-8 pb-2  text-teal-500 ">
                 Code Your Project
               </h3>
               <p className="py-2 dark:text-gray-400">
-              Do you have an idea for your next great website? Let's make it a
-              reality.
+                Do you have an idea for your next great website? Let's make it a
+                reality.
               </p>
-              <h4 className="py-4 text-teal-500">Programming Languages I Use</h4>
-              <p className="text-gray-800 py-1 dark:text-gray-400">JavaScript</p>
+              <h4 className="py-4 text-teal-500">
+                Programming Languages I Use
+              </h4>
+              <p className="text-gray-800 py-1 dark:text-gray-400">
+                JavaScript
+              </p>
               <p className="text-gray-800 py-1 dark:text-gray-400">React.JS</p>
               <p className="text-gray-800 py-1 dark:text-gray-400">Next.JS</p>
-              <p className="text-gray-800 py-1 dark:text-gray-400">Ruby on Rails</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">
+                Ruby on Rails
+              </p>
             </div>
             <div className="text-center shadow-xl shadow-teal-500 p-10 rounded-xl my-10">
-              <Image className='animate-bounce' src={design} width={100} height={100} alt="design-pic" />
+              <Image
+                className="animate-bounce"
+                src={design}
+                width={100}
+                height={100}
+                alt="design-pic"
+              />
               <h3 className="font-medium pt-8 pb-2  text-teal-500 ">
                 Beautiful Designs
               </h3>
               <p className="py-2 dark:text-gray-400">
-                Creating designs suited for your needs following core
-                design theory.
+                Creating designs suited for your needs following core design
+                theory.
               </p>
               <h4 className="py-4 text-teal-500"> Web Design Tools I Use</h4>
               <p className="text-gray-800 py-1 dark:text-gray-400">CSS/HTML</p>
               <p className="text-gray-800 py-1 dark:text-gray-400">Tailwind</p>
-              <p className="text-gray-800 py-1 dark:text-gray-400">Styled Components</p>
-              <p className="text-gray-800 py-1 dark:text-gray-400">Semantic UI</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">
+                Styled Components
+              </p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">
+                Semantic UI
+              </p>
             </div>
             <div className="text-center shadow-xl shadow-teal-500 p-10 rounded-xl my-10">
-              <Image className='animate-bounce' src={db} width={100} height={100} alt="db-pic" />
+              <Image
+                className="animate-bounce"
+                src={db}
+                width={100}
+                height={100}
+                alt="db-pic"
+              />
               <h3 className="font-medium pt-8 pb-2  text-teal-500 ">
                 Database Integration
               </h3>
               <p className="py-2 dark:text-gray-400">
-                Creating and organizing project databases with proper table relationships.
+                Creating and organizing project databases with proper table
+                relationships.
               </p>
               <h4 className="py-4 text-teal-500">Database Tools I Use</h4>
               <p className="text-gray-800 py-1 dark:text-gray-400">SQLite</p>
-              <p className="text-gray-800 py-1 dark:text-gray-400">PostgreSQL</p>
+              <p className="text-gray-800 py-1 dark:text-gray-400">
+                PostgreSQL
+              </p>
               <p className="text-gray-800 py-1 dark:text-gray-400">GraphQL</p>
               <p className="text-gray-800 py-1 dark:text-gray-400">Firebase</p>
             </div>
@@ -124,45 +221,82 @@ export default function Home() {
         </section>
         <section>
           <div className="text-center my-10">
-            <h3 className='text-2xl py-2 md:text-3xl  text-teal-500'>Portfolio</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>Below are some of the projects that I have created, 
-            check them out by clicking on the embedded image link for a YouTube video or the Deployed Web App!
+            <h3 className="text-2xl py-2 md:text-3xl  text-teal-500">
+              Portfolio
+            </h3>
+            <p className="text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400">
+              Below are some of the projects that I have created, check them out
+              by clicking on the embedded image link for a YouTube video or the
+              Deployed Web App!
             </p>
           </div>
           <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
-          <h4 className='text-2xl py-2 md:text-2xl  text-teal-500 text-center'>Delicious Recipes</h4>
-          <h4 className='text-xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with React.JS, Styled Components, and Spoonacular API</h4>
-          <a href='https://youtu.be/70aQyfU-3T0'>
-          <Image className='rounded-xl px-5 pb-10 pt-5' src={delicious} alt="food app"/>
-          </a>
+            <h4 className="text-2xl py-2 md:text-2xl  text-teal-500 text-center">
+              Delicious Recipes
+            </h4>
+            <h4 className="text-xl py-2 md:text-xl  dark:text-gray-400 text-center">
+              Created with React.JS, Styled Components, and Spoonacular API
+            </h4>
+            <a href="https://youtu.be/70aQyfU-3T0">
+              <Image
+                className="rounded-xl px-5 pb-10 pt-5"
+                src={delicious}
+                alt="food app"
+              />
+            </a>
           </div>
           <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
-          <h4 className='text-2xl py-2 md:text-2xl  text-teal-500 text-center'>ATK GAMES</h4>
-          <h4 className='text-xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with React.JS, Ruby on Rails, PostgreSQL, and Semantic UI</h4>
-          <a href='https://www.youtube.com/watch?v=TkBDp29Rk6c&t=170s'>
-          <Image className='rounded-xl px-5 pb-10 pt-5' src={games} alt="game app"/>
-          </a>
+            <h4 className="text-2xl py-2 md:text-2xl  text-teal-500 text-center">
+              ATK GAMES
+            </h4>
+            <h4 className="text-xl py-2 md:text-xl  dark:text-gray-400 text-center">
+              Created with React.JS, Ruby on Rails, PostgreSQL, and Semantic UI
+            </h4>
+            <a href="https://www.youtube.com/watch?v=TkBDp29Rk6c&t=170s">
+              <Image
+                className="rounded-xl px-5 pb-10 pt-5"
+                src={games}
+                alt="game app"
+              />
+            </a>
           </div>
           <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
-           <h4 className='text-2xl py-2 md:text-2xl  text-teal-500 text-center'>ATK-CHAT</h4>
-          <h4 className='text-xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with Next.JS, Firebase, Google Auth, and Tailwind</h4>
-          <a href='https://atk-chat.vercel.app/'>
-          <Image className='rounded-xl px-5 pb-10 pt-5' src={chat} alt="chat app"/>
-          </a>
+            <h4 className="text-2xl py-2 md:text-2xl  text-teal-500 text-center">
+              ATK-CHAT
+            </h4>
+            <h4 className="text-xl py-2 md:text-xl  dark:text-gray-400 text-center">
+              Created with Next.JS, Firebase, Google Auth, and Tailwind
+            </h4>
+            <a href="https://atk-chat.vercel.app/">
+              <Image
+                className="rounded-xl px-5 pb-10 pt-5"
+                src={chat}
+                alt="chat app"
+              />
+            </a>
           </div>
           <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
-           <h4 className='text-2xl py-2 md:text-2xl  text-teal-500 text-center'>ATK-STORE</h4>
-          <h4 className='text-xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with Next.JS, Stripe, Railway, Google Auth, PostgreSQL, and Tailwind</h4>
-          <a href='https://atk-store.vercel.app/'>
-          <Image className='rounded-xl px-5 pb-10 pt-5' src={ATKSTORE} alt="chat app"/>
-          </a>
+            <h4 className="text-2xl py-2 md:text-2xl  text-teal-500 text-center">
+              ATK-STORE
+            </h4>
+            <h4 className="text-xl py-2 md:text-xl  dark:text-gray-400 text-center">
+              Created with Next.JS, Stripe, Railway, Google Auth, PostgreSQL,
+              and Tailwind
+            </h4>
+            <a href="https://atk-store.vercel.app/">
+              <Image
+                className="rounded-xl px-5 pb-10 pt-5"
+                src={ATKSTORE}
+                alt="chat app"
+              />
+            </a>
           </div>
         </section>
         <section>
-          <ContactMe/>
-        <br></br>
-         </section>
+          <ContactMe />
+          <br></br>
+        </section>
       </main>
     </div>
-  )
+  );
 }
