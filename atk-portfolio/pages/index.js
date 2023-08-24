@@ -3,6 +3,7 @@ import {BsFillSunFill} from 'react-icons/bs'
 import {AiFillLinkedin, AiFillYoutube, AiFillGithub, AiFillMediumSquare} from 'react-icons/ai'
 import Image from 'next/image'
 import Adam from '../public/Adam.png'
+import ATKSTORE from '../public/ATKSTORE.jpg'
 import code from '../public/code.png'
 import design from '../public/design.png'
 import db from '../public/db.png'
@@ -49,10 +50,7 @@ export default function Home() {
             <a href='https://github.com/atkhodier1297'><AiFillGithub className='animate-bounce'/></a>
             <a href='https://medium.com/@khodieradam1297'><AiFillMediumSquare className='animate-bounce'/></a>
           </div>
-          <div className='flex justify-center py-10'>
-            <Image className='rounded-full w-80 h-85' src={Adam} alt="adam-picture"/>
-          </div>
-        </section> 
+        </section>
         <section>
           <div className='text-center p-10'>
             <h3 className='text-2xl py-2 md:text-3xl  text-teal-500'>About Me</h3>
@@ -128,7 +126,7 @@ export default function Home() {
           <div className="text-center my-10">
             <h3 className='text-2xl py-2 md:text-3xl  text-teal-500'>Portfolio</h3>
             <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>Below are some of the projects that I have created, 
-            check them out by clicking on the embedded image link!
+            check them out by clicking on the embedded image link for a YouTube video or the Deployed Web App!
             </p>
           </div>
           <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
@@ -150,6 +148,13 @@ export default function Home() {
           <h4 className='text-xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with Next.JS, Firebase, Google Auth, and Tailwind</h4>
           <a href='https://atk-chat.vercel.app/'>
           <Image className='rounded-xl px-5 pb-10 pt-5' src={chat} alt="chat app"/>
+          </a>
+          </div>
+          <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
+           <h4 className='text-2xl py-2 md:text-2xl  text-teal-500 text-center'>ATK-STORE</h4>
+          <h4 className='text-xl py-2 md:text-xl  dark:text-gray-400 text-center'>Created with Next.JS, Stripe, Railway, Google Auth, PostgreSQL, and Tailwind</h4>
+          <a href='https://atk-store.vercel.app/'>
+          <Image className='rounded-xl px-5 pb-10 pt-5' src={ATKSTORE} alt="chat app"/>
           </a>
           </div>
         </section>
