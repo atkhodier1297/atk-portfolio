@@ -79,24 +79,11 @@ export default function Home() {
           </div>
         </section>
         <section>
-          {/* <div className="text-center p-10">
-            <h3 className="text-2xl py-2 md:text-3xl  text-teal-500">
-              About Me
-            </h3>
-            <p className="text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400">
-              Graduated from Kean University earning a BA in Political Science
-              with Cum Laude Honors. Recently graduated from Flatiron School's
-              Full Stack Software Engineering Bootcamp. Passionate and creative
-              software engineer who is eager to work, solve companies problems,
-              and learn new skills. Driven not only to learn, but to help others
-              grow.
-            </p>
-          </div> */}
           <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
             <h3 className="text-2xl py-2 md:text-3xl text-center text-teal-500">
               About Me
             </h3>
-            <p className="px-5 text-md py-2 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400 text-center">
+            <p className="px-5 text-md py-10 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400 text-center">
             Graduated from Kean University earning a BA in Political Science
               with Cum Laude Honors. Recently graduated from Flatiron School's
               Full Stack Software Engineering Bootcamp. Passionate and creative
@@ -104,11 +91,11 @@ export default function Home() {
               and learn new skills. Driven not only to learn, but to help others
               grow.
             </p>
-            <Image
+            {/* <Image
               className="px-5 pb-10 pt-5"
               src={profile}
               alt="profile-pic"
-            />
+            /> */}
           </div>
           <div className="shadow-xl shadow-teal-500 my-10 rounded-xl">
             <h3 className="text-2xl py-2 md:text-3xl text-center text-teal-500">
